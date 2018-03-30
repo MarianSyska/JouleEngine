@@ -1,0 +1,7 @@
+#CMake
+cmake-build-debug/
+
+#User Specific
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
