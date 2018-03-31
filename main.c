@@ -1,8 +1,6 @@
-
-
 #include <stdlib.h>
 #include <string.h>
-#include <printf.h>
+#include <stdio.h>
 #include "util/ArrayList.h"
 
 int main() {
@@ -20,6 +18,6 @@ int main() {
         printf("%i\n", *value);
     }
 
-
+	return 0;
 }
 

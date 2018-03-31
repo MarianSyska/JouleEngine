@@ -4,8 +4,8 @@
 #include "stdbool.h"
 
 typedef struct ArrayList{
-    int arraySize;
-    int cursor;
+    unsigned int arraySize;
+    unsigned int cursor;
     size_t dataSize;
 
     void** dataArray;
