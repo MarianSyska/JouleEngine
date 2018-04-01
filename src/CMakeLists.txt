@@ -1,0 +1,1 @@
+add_executable(JouleEngine main.c Rigidbody.c util/ArrayList.c util/Vector3.c)

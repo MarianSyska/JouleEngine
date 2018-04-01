@@ -18,6 +18,8 @@ int main() {
         printf("%i\n", *value);
     }
 
+	
+
 	return 0;
 }
 
