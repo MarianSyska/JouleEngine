@@ -1,1 +1,5 @@
-add_executable(JouleEngine main.c Rigidbody.c util/ArrayList.c util/Vector3.c)
+set(JOULE_ENGINE_SRC        main.cpp
+                            jeAABB.cpp
+                            jeRectangle.cpp)
+
+add_executable(JouleEngine ${JOULE_ENGINE_SRC})

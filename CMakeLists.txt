@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.9)
-project(JouleEngine C)
+project(JouleEngine CXX)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_CXX_STANDARD 14)
 
 add_subdirectory(src ${CMAKE_BINARY_DIR}/src)
-add_subdirectory(tests ${CMAKE_BINARY_DIR}/tests)

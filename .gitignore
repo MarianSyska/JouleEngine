@@ -6,3 +6,6 @@ cmake-build-debug/
 
 CMakeSettings.json
 .vs
+
+Apple
+.DS_Store
